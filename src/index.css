@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    user-select: none;
+}
+
+.fc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    font: bolder;
+}
+.fc-daygrid-day {
+    background-color: white;
+}
