@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useAppSelector } from '../hooks/reduxHooks'
 import UserCard from '../components/UserCard'
 import AddBtn from '../components/AddBtn'
@@ -10,7 +10,7 @@ import { useUser } from '../context/UserProvider'
 
 const Teachers = () => {
   const {loading, teacherData, error, errMessage} = useAppSelector(store => store.teacherReducer)
-  const {view, setView} = useTeacher()
+  const {setView} = useTeacher()
   const {user} = useUser()
 
   console.log(error, errMessage, loading, teacherData)

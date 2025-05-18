@@ -1,7 +1,7 @@
 import React, { SetStateAction } from 'react'
 import { FaPencil } from 'react-icons/fa6'
 
-const EditBtn = ({view, setView}: {view: boolean, setView: React.Dispatch<SetStateAction<any>>}) => {
+const EditBtn = ({setView}: {view: boolean, setView: React.Dispatch<SetStateAction<any>>}) => {
 
     const handleClick = () => {
         setView(false)

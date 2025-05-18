@@ -1,4 +1,4 @@
-import { redirect, replace } from "react-router-dom"
+import { redirect } from "react-router-dom"
 import { useUser } from "../context/UserProvider"
 
 import { ComponentType } from "react";

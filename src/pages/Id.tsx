@@ -1,4 +1,3 @@
-import React from 'react'
 import IdComponent from '../components/IdComponent'
 import { useAppSelector } from '../hooks/reduxHooks'
 import { StudentInterface } from '../utils/interfaces/StudentInterfaces'

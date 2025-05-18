@@ -2,9 +2,6 @@ import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from "@fullcalendar/interaction"
-import React, { SetStateAction, useEffect, useRef, useState } from 'react'
-import axios from 'axios'
-import { server } from '../utils/url'
 import DisplayError from './DisplayError'
 import { eventInterface } from './DisplayCalendar'
 

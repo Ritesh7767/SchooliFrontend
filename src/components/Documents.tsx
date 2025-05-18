@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Documents = ({view, name, handleClick, previewImage}: {view: boolean, name: string, handleClick: () => void, previewImage: string | null}) => {
   
     console.log(previewImage)

@@ -2,7 +2,6 @@ import { useTranslate } from '../context/TranslateProvider'
 import { useSearch } from '../context/SearchProvider'
 import Sidebar from './Sidebar'
 import Navbar from './Navbar'
-import LoggedRouter from '../Routers/LoggedRouters'
 import ShowSearch from './ShowSearch'
 import { Outlet } from 'react-router-dom'
 import { useAppDispatch } from '../hooks/reduxHooks'
@@ -26,8 +25,6 @@ const LoggedPages = () => {
     dispatch(fetchStudent())
     dispatch(fetchTeacher())
 
-    // window.addEventListener("scroll", handleClick)
-    // return window.removeEventListener('scroll', handleClick)
   }, [])
 
 

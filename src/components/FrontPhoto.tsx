@@ -7,7 +7,6 @@ const FrontPhoto = () => {
       'https://res.cloudinary.com/duvoga9f5/image/upload/v1740130575/lvvfniyxe4ku2pjnnqay.jpg',
       'https://res.cloudinary.com/duvoga9f5/image/upload/v1740130576/ucfqsrxex1fnkmj5ufd8.jpg',
       'https://res.cloudinary.com/duvoga9f5/image/upload/v1740130577/vwsazbqg1lsuapsr8i5w.jpg',
-    //   'https://res.cloudinary.com/duvoga9f5/image/upload/v1740130579/b8yxavxshs96y1jn8ia7.jpg',
       'https://res.cloudinary.com/duvoga9f5/image/upload/v1740130580/rt35lpymmhjt8ogyenkh.jpg',
       'https://res.cloudinary.com/duvoga9f5/image/upload/v1740130581/ucovkgxhhrexqcv5dxct.jpg',
       'https://res.cloudinary.com/duvoga9f5/image/upload/v1740130582/nja4ieplmov0zc8sarhz.jpg',

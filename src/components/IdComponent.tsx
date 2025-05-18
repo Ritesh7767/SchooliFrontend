@@ -1,4 +1,3 @@
-import React from 'react'
 import { StudentInterface } from '../utils/interfaces/StudentInterfaces'
 
 const IdComponent = ({user}: {user: StudentInterface}) => {

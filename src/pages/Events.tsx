@@ -1,5 +1,3 @@
-import React from 'react'
-import EventCard from '../components/EventCard'
 import { events } from '../data/event'
 import EventSection from '../components/EventSection'
 import { MdEmojiEvents } from "react-icons/md";

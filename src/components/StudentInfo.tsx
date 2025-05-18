@@ -1,5 +1,5 @@
-import { replace, useNavigate, useParams } from 'react-router-dom'
-import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks'
+import { useNavigate } from 'react-router-dom'
+import { useAppDispatch } from '../hooks/reduxHooks'
 import EditBtn from '../components/EditBtn'
 import { useStudent } from '../context/StudentProvider'
 import { MdOutlineEmail } from "react-icons/md";
@@ -27,8 +27,6 @@ import { server } from '../utils/url';
 import { fetchStudent } from '../redux/slices/studentSlice';
 import { useState } from 'react';
 import Loading from './Loading';
-import SuccessBtn from './SuccessBtn';
-import { required } from '../utils/required';
 import DisplayError from './DisplayError';
 
 const StudentInfo = ({method}: {method: "post" | "patch"}) => {

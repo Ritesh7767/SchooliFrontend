@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTeacher } from '../context/TeacherProvider'
 import { useStudent } from '../context/StudentProvider'
 

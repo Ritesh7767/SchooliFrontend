@@ -1,4 +1,3 @@
-import React from 'react'
 import { StudentInterface } from '../utils/interfaces/StudentInterfaces'
 import { TeacherInterface } from '../utils/interfaces/TeacherInterfaces'
 import BirthDayCard from './BirthDayCard'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const GoToElement = ({value, path, url}: {value: string, path: string, url: string}) => {

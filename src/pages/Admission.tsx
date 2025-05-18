@@ -1,12 +1,10 @@
-import { useEffect, useState } from 'react';
-import { StudentInterface } from '../utils/interfaces/StudentInterfaces';
-import TeacherInfo from './TeacherDetails';
+import { useEffect } from 'react';
 import { useStudent } from '../context/StudentProvider';
 import { studentObject } from '../utils/studentObject';
 import StudentInfo from '../components/StudentInfo';
 
 const Admission = () => {
-  const {details, setDetails, setView} = useStudent()
+  const {setDetails, setView} = useStudent()
   useEffect(() => {
     localStorage.setItem("details", JSON.stringify(studentObject))
     setView(false)

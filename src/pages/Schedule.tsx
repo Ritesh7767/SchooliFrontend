@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Calendar from '../components/Calendar'
 import { eventInterface } from '../components/DisplayCalendar'
-import useAxios from '../hooks/useAxios'
 import Loading from '../components/Loading'
 import axios from 'axios'
 import { server } from '../utils/url'

@@ -1,31 +1,19 @@
-import { useLocation } from 'react-router-dom';
-import Button from '../components/Button'
-import UserCard from '../components/UserCard'
-import { studentData } from '../data'
-import { FaFilter } from "react-icons/fa6";
-import { MdAdd } from "react-icons/md";
 import { useEffect, useRef, useState } from 'react';
 import { FaFemale } from "react-icons/fa";
 import { FaMale } from "react-icons/fa";
 import { StudentInterface } from '../utils/interfaces/StudentInterfaces';
-import { useAppDispatch, useAppSelector } from '../hooks/reduxHooks';
+import { useAppSelector } from '../hooks/reduxHooks';
 import AddBtn from '../components/AddBtn';
 import DisplayStudents from '../components/DisplayStudents';
-import { useSearch } from '../context/SearchProvider';
-import { fetchStudent } from '../redux/slices/studentSlice';
 import Loading from '../components/Loading';
 import DisplayError from '../components/DisplayError';
 import { useUser } from '../context/UserProvider';
 import { useCount } from '../context/CountProvider';
-// import { useDispatch } from 'react-redux';
-
-
 
 const Students = () => {
 
   const {loading, studentData, errMessage, error} = useAppSelector(store => store.studentReducer)
   const [data, setData] = useState<StudentInterface[]>([])
-  const {searchView} = useSearch()
   const {user} = useUser()
   const {count} = useCount()
 

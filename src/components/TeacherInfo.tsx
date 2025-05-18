@@ -10,8 +10,6 @@ import { MdOutlineEmail } from "react-icons/md"
 import { MdOutlineNotes } from "react-icons/md";
 import { FaBook } from "react-icons/fa6";
 import { GrCertificate } from "react-icons/gr";
-import { RiAdminFill } from "react-icons/ri"
-// import ProfileImage from "./ProfileImage"
 import EditBtn from "./EditBtn"
 import { useTeacher } from "../context/TeacherProvider"
 import CnfBtn from "./CnfBtn"

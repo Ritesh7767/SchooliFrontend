@@ -1,3 +1,1 @@
 export const server = "https://schoolibackend.onrender.com"
-// 
-//

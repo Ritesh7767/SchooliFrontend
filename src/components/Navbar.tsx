@@ -1,4 +1,3 @@
-import { IoSearch } from "react-icons/io5";
 import { IoNotificationsSharp } from "react-icons/io5";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { useTranslate } from "../context/TranslateProvider";

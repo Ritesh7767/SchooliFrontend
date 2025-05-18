@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useUser } from '../context/UserProvider'
 import StudentInfo from '../components/StudentInfo'
 import { useStudent } from '../context/StudentProvider'

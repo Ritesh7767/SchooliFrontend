@@ -2,27 +2,19 @@ import { MdDashboard } from "react-icons/md";
 import { MdEventNote } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { PiStudentFill } from "react-icons/pi";
-import { TbListDetails } from "react-icons/tb";
-import { IoDocuments } from "react-icons/io5";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { PiStudentBold } from "react-icons/pi";
-import { IoNotificationsSharp } from "react-icons/io5";
-import { MdAnnouncement } from "react-icons/md";
 import { FaIdCard } from "react-icons/fa6";
-import { AiFillMessage } from "react-icons/ai";
-import { NavLink } from 'react-router-dom';
-import { HiSpeakerphone } from "react-icons/hi";
 import "./sidebar.css"
 import { useTranslate } from '../context/TranslateProvider';
 import Logo from "./Logo";
 import SideAttr from "./SideAttr";
 import { CgProfile } from "react-icons/cg";
 import { RiCalendarScheduleLine } from "react-icons/ri";
-import { GrMoney } from "react-icons/gr";
 import { useUser } from "../context/UserProvider";
 
 const Sidebar = () => {
-    const {translate, setTranslate} = useTranslate()
+    const {translate} = useTranslate()
     const {user} = useUser()
  
     return (

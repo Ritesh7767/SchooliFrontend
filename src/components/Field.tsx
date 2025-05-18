@@ -1,7 +1,6 @@
 import { StudentInterface } from "../utils/interfaces/StudentInterfaces"
 import { useTeacher } from "../context/TeacherProvider"
 import { useStudent } from "../context/StudentProvider"
-import { useParams, useSearchParams } from "react-router-dom"
 import { required } from "../utils/required"
 import { useUser } from "../context/UserProvider"
 

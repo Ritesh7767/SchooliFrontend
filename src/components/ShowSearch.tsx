@@ -1,8 +1,4 @@
-import React from 'react'
-import { SearchContextInterface, useSearch } from '../context/SearchProvider'
-import UserCard from './UserCard'
-import { StudentInterface } from '../utils/interfaces/StudentInterfaces'
-import { TeacherInterface } from '../utils/interfaces/TeacherInterfaces'
+import { useSearch } from '../context/SearchProvider'
 import DisplayStudents from './DisplayStudents'
 
 const ShowSearch = () => {

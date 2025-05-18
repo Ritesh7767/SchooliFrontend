@@ -1,5 +1,4 @@
-import { Action, createSlice } from "@reduxjs/toolkit";
-import { teacherData } from "../../data/teacherData";
+import { createSlice } from "@reduxjs/toolkit";
 import { TeacherInterface } from "../../utils/interfaces/TeacherInterfaces";
 import { server } from "../../utils/url";
 import axios from "axios";

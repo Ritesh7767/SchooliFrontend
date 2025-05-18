@@ -20,7 +20,6 @@ const Dashboard = () => {
   const {studentData} = useAppSelector(store => store.studentReducer)
   const {teacherData} = useAppSelector(store => store.teacherReducer)
   const [starUser, setStarUser] = useState<starInterface>()
-  // const [count, setCount] = useState({boys: 0, girls: 0})
   const {count, setCount} = useCount()
   
   const date = new Date().getDate()
@@ -92,23 +91,13 @@ const Dashboard = () => {
           <GoToElement url='/user/schedules' value={"Schedules"} path='./schedule.webp' />
           {user?.status == "Admin" && <GoToElement url='/user/admission' value={"Admission"} path='./admission.png' />}
           {user?.status == "Admin" && <GoToElement url='/user/hireTeacher' value={"Hire Teacher"} path='./hireTeacher.png' />}
-          {/* <GoToElement url='/user/' value={"Announcement"} path='./announcement.png' /> */}
           <GoToElement url='/user/id' value={"Id Card"} path='./id.webp' />
         </div>
       </div>
       <br />
       <h1 className='sm:text-xl font-bold'>Calendar</h1>
       <div className='flex gap-2'>
-        {/* <div className='w-1/3 border border-black'>
-            <h2 className='text-center font-bold color-'>Today's Task</h2>
-            <ul>
-              <li>Meeting</li>
-            </ul>
-        </div> */}
-        {/* <div className='w-2/3'> */}
-
           <DisplayCalendar/>
-        {/* </div> */}
       </div>
     </div>
   )

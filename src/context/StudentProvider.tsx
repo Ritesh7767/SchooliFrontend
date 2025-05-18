@@ -1,7 +1,5 @@
 import React, { createContext, useContext, useState, SetStateAction } from "react";
 import { StudentInterface } from "../utils/interfaces/StudentInterfaces";
-import { studentObject } from "../utils/studentObject";
-
 
 export interface StudentContextInterface {
     details: StudentInterface,

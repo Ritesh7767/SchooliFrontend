@@ -1,4 +1,4 @@
-import React, { SetStateAction } from "react"
+import React from "react"
 import { StudentInterface } from "../utils/interfaces/StudentInterfaces"
 import { useTeacher } from "../context/TeacherProvider"
 import { useStudent } from "../context/StudentProvider"

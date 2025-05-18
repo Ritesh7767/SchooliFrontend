@@ -2,7 +2,6 @@ import LeaderCard from "../components/LeaderCard";
 import Banner from "../components/Banner";
 import FrontPhoto from "../components/FrontPhoto";
 import ContactDetails from "../components/ContactDetails";
-import Login from "./Login";
 import { Link } from "react-router-dom";
 
 const mapping: {[key: string]: string[]} = {
@@ -15,7 +14,6 @@ const Front = () => {
   return (
 
     <div className="text-center parent relative border-2 bg-purple-50 flex flex-col gap-4">
-      {/* <Login/> */}
       <nav className="flex justify-between items-center shadow-lg p-2 md:p-4">
         <span className="font-bold text-lg md:text-2xl font-serif text-purple-900">Schoooli</span>
         <Link to={'/login'} className="font-bold md:text-lg" >Login</Link>
