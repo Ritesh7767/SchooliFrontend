@@ -42,7 +42,7 @@ const Login = () => {
     }
 
   return (
-    <div className='absolute border text-purple-900 bg-[url(./login.jpg)] bg-no-repeat bg-center bg-cover bg-opacity-55 border-black w-full h-full flex flex-col justify-center items-center'>
+    <div className='absolute border text-purple-900 bg-[url(https://img.freepik.com/premium-photo/colorful-school-supplies-wooden-background_488220-23037.jpg)] bg-no-repeat bg-center bg-cover bg-opacity-55 border-black w-full h-full flex flex-col justify-center items-center'>
         <h1 className="font-bold text-3xl text-white">Welcome to <span className="text-purple-500">Schooli</span></h1>
         <div className="border-purple-900 rounded-xl shadow-2xl p-12 bg-opacity-50 bg-white">
             <h1 className="font-semibold">Hello User,.... {greeting} </h1>
